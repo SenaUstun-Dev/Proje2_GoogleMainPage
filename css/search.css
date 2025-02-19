@@ -38,6 +38,7 @@
     background: #5F6368;
     border:none;
     padding-right: 250px;
+    outline: none;
 }
 .search-text:active{
     background: #303134;
