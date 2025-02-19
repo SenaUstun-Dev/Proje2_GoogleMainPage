@@ -1,0 +1,106 @@
+.search-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:200px ;
+    min-height: 92px;
+
+    min-height: 150px;
+    height: calc(100% - 560px);
+    max-height: 290px;
+
+    flex-shrink: 0;
+    box-sizing: border-box;
+    unicode-bidi: isolate;
+}
+
+.search-area{
+    background-color: #5F6368;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 40px;
+}
+.search-area:active{
+    background: #303134;
+}
+
+.search-image{
+    background: transparent ;
+    height: 20px;
+    width: 20px;
+    padding-left: 8px;
+}
+.search-image:active{
+    background: #303134;
+}
+
+.search-text{
+    background: #5F6368;
+    border:none;
+    padding-right: 250px;
+}
+.search-text:active{
+    background: #303134;
+    border: 0px;
+}
+
+.search-keyboard{
+    background-image: url('../images/keyboard.png') ;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    border: 0px;
+}
+.search-mic{
+    background-image: url('../images/google-voice.png') ;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    border: 0px;
+}
+.search-cam{
+    background-image: url('../images/7123028_lens_google_icon.png') ;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    border: 0px;
+}
+
+.search-icon{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+.search-icon:hover{
+    cursor: pointer;
+}
+
+.below-search-button{
+   background:#303134;
+   color: #e8eaed;
+   border: 1px solid transparent;
+   font-family: Arial, sans-serif;
+   line-height: 27px;
+   margin-left: 5px;
+   margin-right: 5px;
+   border-radius: 5px;
+   padding: 6px 18px;
+    font-size:14px;
+
+}
+.below-search-button:hover{
+    cursor: pointer;
+    border: 1px solid #5F6368;
+
+}

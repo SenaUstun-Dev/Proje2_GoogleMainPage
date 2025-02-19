@@ -1,0 +1,52 @@
+.footercontainer{
+    margin-top: auto;
+    display: flex;
+    vertical-align: bottom;
+    margin: none;
+    
+}
+
+.footer{
+    background: #171717;
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 1px;
+    margin: none;
+    text-align: center;
+}
+.footer-country{
+    margin-bottom:1px ;
+    margin-top:290px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.footer-info{
+    text-align: center;
+}
+.footer-info:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-button-container{
+    display: inline;
+    padding: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+.footer-button{
+    color: white;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    padding: 5px;
+    margin: 8px;
+}
+
+.footer-button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
